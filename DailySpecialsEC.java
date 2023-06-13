@@ -67,7 +67,9 @@ public class DailySpecialsEC {
             System.out.println(number + " " + coffee +" have been ordered totalling $" +money + " dollars!");
 
         } else if(number >=5 && number <10) {
+            
             double moneyWithDiscount = money * 0.9;
+            
             System.out.print("Looks like you qualify for a group discount! Your regular price is $");
             System.out.printf("%.2f", money);
             System.out.println(" dollars");
@@ -76,7 +78,9 @@ public class DailySpecialsEC {
             System.out.println(" dollars");
 
         } else if(number >= 10) {
+            
             double moneyWithDiscount = money * 0.8;
+            
             System.out.print("A bigger group discount! Your regular price is $");
             System.out.printf("%.2f", money);
             System.out.println(" dollars");
